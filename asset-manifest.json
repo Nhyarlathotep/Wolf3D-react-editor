@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.js": "/Wolf3D-react-editor/static/js/main.c8322a4c.chunk.js",
-    "main.js.map": "/Wolf3D-react-editor/static/js/main.c8322a4c.chunk.js.map",
-    "runtime-main.js": "/Wolf3D-react-editor/static/js/runtime-main.c37d4d44.js",
-    "runtime-main.js.map": "/Wolf3D-react-editor/static/js/runtime-main.c37d4d44.js.map",
-    "static/js/2.122c1049.chunk.js": "/Wolf3D-react-editor/static/js/2.122c1049.chunk.js",
-    "static/js/2.122c1049.chunk.js.map": "/Wolf3D-react-editor/static/js/2.122c1049.chunk.js.map",
-    "static/js/3.ea72f01e.chunk.js": "/Wolf3D-react-editor/static/js/3.ea72f01e.chunk.js",
-    "4018d8a06e558ba92edb.module.wasm": "/Wolf3D-react-editor/4018d8a06e558ba92edb.module.wasm",
-    "static/js/3.ea72f01e.chunk.js.map": "/Wolf3D-react-editor/static/js/3.ea72f01e.chunk.js.map",
+    "main.js": "/Wolf3D-react-editor/static/js/main.a930dedf.chunk.js",
+    "main.js.map": "/Wolf3D-react-editor/static/js/main.a930dedf.chunk.js.map",
+    "runtime-main.js": "/Wolf3D-react-editor/static/js/runtime-main.1fcc3bc6.js",
+    "runtime-main.js.map": "/Wolf3D-react-editor/static/js/runtime-main.1fcc3bc6.js.map",
+    "static/js/2.2e440d2f.chunk.js": "/Wolf3D-react-editor/static/js/2.2e440d2f.chunk.js",
+    "static/js/2.2e440d2f.chunk.js.map": "/Wolf3D-react-editor/static/js/2.2e440d2f.chunk.js.map",
+    "static/js/3.01d2c982.chunk.js": "/Wolf3D-react-editor/static/js/3.01d2c982.chunk.js",
+    "b6e9eaa6a0bb2a1ead6c.module.wasm": "/Wolf3D-react-editor/b6e9eaa6a0bb2a1ead6c.module.wasm",
+    "static/js/3.01d2c982.chunk.js.map": "/Wolf3D-react-editor/static/js/3.01d2c982.chunk.js.map",
     "index.html": "/Wolf3D-react-editor/index.html",
-    "precache-manifest.eb7439a3c1688f87ade19ed8a05a17fa.js": "/Wolf3D-react-editor/precache-manifest.eb7439a3c1688f87ade19ed8a05a17fa.js",
+    "precache-manifest.24d65a020ccbc9b97efc4847b4f10586.js": "/Wolf3D-react-editor/precache-manifest.24d65a020ccbc9b97efc4847b4f10586.js",
     "service-worker.js": "/Wolf3D-react-editor/service-worker.js",
-    "static/js/2.122c1049.chunk.js.LICENSE.txt": "/Wolf3D-react-editor/static/js/2.122c1049.chunk.js.LICENSE.txt",
+    "static/js/2.2e440d2f.chunk.js.LICENSE.txt": "/Wolf3D-react-editor/static/js/2.2e440d2f.chunk.js.LICENSE.txt",
     "static/media/sprites.png": "/Wolf3D-react-editor/static/media/sprites.af50fe4d.png",
     "static/media/tiles.png": "/Wolf3D-react-editor/static/media/tiles.a310acf4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c37d4d44.js",
-    "static/js/2.122c1049.chunk.js",
-    "static/js/main.c8322a4c.chunk.js"
+    "static/js/runtime-main.1fcc3bc6.js",
+    "static/js/2.2e440d2f.chunk.js",
+    "static/js/main.a930dedf.chunk.js"
   ]
 }

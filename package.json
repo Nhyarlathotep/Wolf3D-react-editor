@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "wolf3d-react-editor",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://nhyarlathotep.github.io/Wolf3D-react-editor/",
@@ -22,7 +22,7 @@
     "react-konva": "^16.13.0-3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "wasm": "file:~/Downloads/paint/pkg"
+    "wolf3D-wasm": "github:Nhyarlathotep/Wolf3D-wasm#build"
   },
   "scripts": {
     "start": "react-app-rewired start",

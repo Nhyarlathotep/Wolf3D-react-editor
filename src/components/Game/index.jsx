@@ -35,7 +35,7 @@ export default function Game(props) {
     const fps = useRef(0);
     const lastFrameTimeStamp = useRef(performance.now());
     const [wasm, setWasm] = useState(async () => {
-        const wasm = await import('wasm');
+        const wasm = await import('wolf3D-wasm');
         setWasm(wasm);
         return null;
     });

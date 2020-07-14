@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Wolf3D-react-editor/4018d8a06e558ba92edb.module.wasm"
   },
   {
-    "revision": "3a4ba99b431cf9af4873c2807eabe040",
+    "revision": "14de7280eb75a8835b97f526381b5b13",
     "url": "/Wolf3D-react-editor/index.html"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Wolf3D-react-editor/static/js/3.ea72f01e.chunk.js"
   },
   {
-    "revision": "29a7a4c181d6939c9111",
-    "url": "/Wolf3D-react-editor/static/js/main.2656c05f.chunk.js"
+    "revision": "e72c2794b947517b9cde",
+    "url": "/Wolf3D-react-editor/static/js/main.2a8c2c91.chunk.js"
   },
   {
     "revision": "1a1e7602378a86be4f0c",

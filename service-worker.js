@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Wolf3D-react-editor/precache-manifest.aecc45c7d7e814c9fb364e40342ba0b5.js"
+  "/Wolf3D-react-editor/precache-manifest.09d74124cf8bac59b061e032d0f7270d.js"
 );
 
 self.addEventListener('message', (event) => {

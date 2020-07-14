@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/Wolf3D-react-editor/static/js/main.2656c05f.chunk.js",
-    "main.js.map": "/Wolf3D-react-editor/static/js/main.2656c05f.chunk.js.map",
+    "main.js": "/Wolf3D-react-editor/static/js/main.2a8c2c91.chunk.js",
+    "main.js.map": "/Wolf3D-react-editor/static/js/main.2a8c2c91.chunk.js.map",
     "runtime-main.js": "/Wolf3D-react-editor/static/js/runtime-main.c37d4d44.js",
     "runtime-main.js.map": "/Wolf3D-react-editor/static/js/runtime-main.c37d4d44.js.map",
     "static/js/2.76bc6d8e.chunk.js": "/Wolf3D-react-editor/static/js/2.76bc6d8e.chunk.js",
@@ -10,7 +10,7 @@
     "4018d8a06e558ba92edb.module.wasm": "/Wolf3D-react-editor/4018d8a06e558ba92edb.module.wasm",
     "static/js/3.ea72f01e.chunk.js.map": "/Wolf3D-react-editor/static/js/3.ea72f01e.chunk.js.map",
     "index.html": "/Wolf3D-react-editor/index.html",
-    "precache-manifest.aecc45c7d7e814c9fb364e40342ba0b5.js": "/Wolf3D-react-editor/precache-manifest.aecc45c7d7e814c9fb364e40342ba0b5.js",
+    "precache-manifest.09d74124cf8bac59b061e032d0f7270d.js": "/Wolf3D-react-editor/precache-manifest.09d74124cf8bac59b061e032d0f7270d.js",
     "service-worker.js": "/Wolf3D-react-editor/service-worker.js",
     "static/js/2.76bc6d8e.chunk.js.LICENSE.txt": "/Wolf3D-react-editor/static/js/2.76bc6d8e.chunk.js.LICENSE.txt",
     "static/media/sprites.png": "/Wolf3D-react-editor/static/media/sprites.af50fe4d.png",
@@ -19,6 +19,6 @@
   "entrypoints": [
     "static/js/runtime-main.c37d4d44.js",
     "static/js/2.76bc6d8e.chunk.js",
-    "static/js/main.2656c05f.chunk.js"
+    "static/js/main.2a8c2c91.chunk.js"
   ]
 }

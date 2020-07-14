@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.js": "/Wolf3D-react-editor/static/js/main.443a137a.chunk.js",
-    "main.js.map": "/Wolf3D-react-editor/static/js/main.443a137a.chunk.js.map",
+    "main.js": "/Wolf3D-react-editor/static/js/main.c8322a4c.chunk.js",
+    "main.js.map": "/Wolf3D-react-editor/static/js/main.c8322a4c.chunk.js.map",
     "runtime-main.js": "/Wolf3D-react-editor/static/js/runtime-main.c37d4d44.js",
     "runtime-main.js.map": "/Wolf3D-react-editor/static/js/runtime-main.c37d4d44.js.map",
-    "static/js/2.76bc6d8e.chunk.js": "/Wolf3D-react-editor/static/js/2.76bc6d8e.chunk.js",
-    "static/js/2.76bc6d8e.chunk.js.map": "/Wolf3D-react-editor/static/js/2.76bc6d8e.chunk.js.map",
+    "static/js/2.122c1049.chunk.js": "/Wolf3D-react-editor/static/js/2.122c1049.chunk.js",
+    "static/js/2.122c1049.chunk.js.map": "/Wolf3D-react-editor/static/js/2.122c1049.chunk.js.map",
     "static/js/3.ea72f01e.chunk.js": "/Wolf3D-react-editor/static/js/3.ea72f01e.chunk.js",
     "4018d8a06e558ba92edb.module.wasm": "/Wolf3D-react-editor/4018d8a06e558ba92edb.module.wasm",
     "static/js/3.ea72f01e.chunk.js.map": "/Wolf3D-react-editor/static/js/3.ea72f01e.chunk.js.map",
     "index.html": "/Wolf3D-react-editor/index.html",
-    "precache-manifest.160a650188ad4a508bda33a57ab7aa26.js": "/Wolf3D-react-editor/precache-manifest.160a650188ad4a508bda33a57ab7aa26.js",
+    "precache-manifest.eb7439a3c1688f87ade19ed8a05a17fa.js": "/Wolf3D-react-editor/precache-manifest.eb7439a3c1688f87ade19ed8a05a17fa.js",
     "service-worker.js": "/Wolf3D-react-editor/service-worker.js",
-    "static/js/2.76bc6d8e.chunk.js.LICENSE.txt": "/Wolf3D-react-editor/static/js/2.76bc6d8e.chunk.js.LICENSE.txt",
+    "static/js/2.122c1049.chunk.js.LICENSE.txt": "/Wolf3D-react-editor/static/js/2.122c1049.chunk.js.LICENSE.txt",
     "static/media/sprites.png": "/Wolf3D-react-editor/static/media/sprites.af50fe4d.png",
     "static/media/tiles.png": "/Wolf3D-react-editor/static/media/tiles.a310acf4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c37d4d44.js",
-    "static/js/2.76bc6d8e.chunk.js",
-    "static/js/main.443a137a.chunk.js"
+    "static/js/2.122c1049.chunk.js",
+    "static/js/main.c8322a4c.chunk.js"
   ]
 }

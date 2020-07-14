@@ -4,24 +4,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Wolf3D-react-editor/4018d8a06e558ba92edb.module.wasm"
   },
   {
-    "revision": "a1f6a8d86df7e624b96baf44603d05f5",
+    "revision": "f80be0c8a67aa4eca51050d57e79549b",
     "url": "/Wolf3D-react-editor/index.html"
   },
   {
-    "revision": "0d64f97325ad2984eea7",
-    "url": "/Wolf3D-react-editor/static/js/2.76bc6d8e.chunk.js"
+    "revision": "d8c019c3a92d3fcc4474",
+    "url": "/Wolf3D-react-editor/static/js/2.122c1049.chunk.js"
   },
   {
     "revision": "7bffe171c6a70b4e7135d4da7eb821d9",
-    "url": "/Wolf3D-react-editor/static/js/2.76bc6d8e.chunk.js.LICENSE.txt"
+    "url": "/Wolf3D-react-editor/static/js/2.122c1049.chunk.js.LICENSE.txt"
   },
   {
     "revision": "ce6340a7af793a8c2559",
     "url": "/Wolf3D-react-editor/static/js/3.ea72f01e.chunk.js"
   },
   {
-    "revision": "861d27d61296166f2d8a",
-    "url": "/Wolf3D-react-editor/static/js/main.443a137a.chunk.js"
+    "revision": "1b22e464cfab79544187",
+    "url": "/Wolf3D-react-editor/static/js/main.c8322a4c.chunk.js"
   },
   {
     "revision": "1a1e7602378a86be4f0c",

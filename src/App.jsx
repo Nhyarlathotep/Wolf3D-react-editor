@@ -185,8 +185,8 @@ export default function App() {
             <MuiThemeProvider theme={theme ? lightTheme : darkTheme}>
                 <BrowserRouter>
                     <Switch>
-                        <Route exact path={'/'} render={(props) => <Main history={props.history}/>}/>
-                        <Route exact path={'/game'} render={(props) => <Game history={props.history}/>}/>
+                        <Route exact path={'/Wolf3D-react-editor/'} render={(props) => <Main history={props.history}/>}/>
+                        <Route exact path={'/Wolf3D-react-editor/game'} render={(props) => <Game history={props.history}/>}/>
                     </Switch>
                 </BrowserRouter>
             </MuiThemeProvider>

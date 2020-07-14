@@ -157,8 +157,6 @@ export default function App() {
                         break;
                     }
                 }
-
-
                 sprite.pos = pos;
                 sprites.push(sprite);
             } else if (editor.selected.hasOwnProperty("portals")) {

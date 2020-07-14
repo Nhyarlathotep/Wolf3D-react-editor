@@ -1,7 +1,7 @@
 import React, {useLayoutEffect, useRef, useState, useContext, useCallback, useReducer} from "react";
 import {makeStyles} from "@material-ui/core/styles";
-import {ImportExport, PlayArrow, Pause, AspectRatio} from "@material-ui/icons";
-import {CssBaseline, IconButton} from '@material-ui/core/';
+import {ImportExport, AspectRatio} from "@material-ui/icons";
+import {CssBaseline, IconButton, Tooltip, Menu, MenuItem} from '@material-ui/core/';
 
 import {Context} from "../../context";
 import defaultMap from "../../resources/defaultMap"
@@ -10,10 +10,10 @@ import MapModal from "../common/MapModal";
 
 const keys = [87, 65, 90, 81, 83, 68, 32, 70];
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     content: {
         position: 'absolute',
-        top: `50%`,
+        top: "calc(50% + 32px)",
         left: `50%`,
         transform: `translate(-50%, -50%)`,
 
@@ -21,10 +21,9 @@ const useStyles = makeStyles((theme) => ({
         flexFlow: 'column',
         alignItems: 'center'
     },
-
     canvas: {
-        width: "640px",
-        height: "480px",
+        width: "800px",
+        height: "600px",
         border: "4px solid purple"
     }
 }));
@@ -46,16 +45,16 @@ export default function Game(props) {
             }
             return newState;
         }, null);
-    const [open, setOpen] = useState(false);
+    const [state, setState] = useState({open: false, resolution: {width: 320, height: 240}, anchorMenu: null});
 
     const handleOpen = () => {
-        if (!open) {
+        if (!state.open) {
             //Stop updating the game while the modal is open
             stopLoop();
             window.removeEventListener("keyup", handleKeyUp);
             window.removeEventListener("keydown", handleKeyDown);
         }
-        setOpen(!open);
+        setState(p => {return {...p, open: !state.open}});
     };
 
     const handleKeyDown = useCallback((event) => {
@@ -100,9 +99,9 @@ export default function Game(props) {
                 setEditor(p => {return {...p, map: defaultMap}});
                 return;
             }
-            setGame(new Game(map.cells.length ? map : defaultMap));
+            setGame(new Game(map.cells.length ? map : defaultMap, state.resolution.width, state.resolution.height));
         }
-    }, [wasm, map, setEditor]);
+    }, [wasm, map, state.resolution, setEditor]);
 
     useLayoutEffect(() => {
         if (!game) {
@@ -121,14 +120,36 @@ export default function Game(props) {
         };
     }, [game, loop, handleKeyUp, handleKeyDown]);
 
+    const handleMenuOpen = (event) => {
+        setState(p => {return {...p, anchorMenu: event.currentTarget}})
+    };
+
+    const handleMenuClose= (ratio) => () => {
+        setState(p => {return {...p, resolution: {width: 320 * ratio, height: 240 * ratio}, anchorMenu: null}})
+    };
+
     return (
         <React.Fragment>
             <CssBaseline/>
             <AppBar name="Launch Editor" onclick={() => {props.history.push('/')}} github="https://github.com/Nhyarlathotep/Wolf3d-wasm">
                 {
-                    <IconButton color="inherit" edge="end" onClick={handleOpen}>
-                        <ImportExport/>
-                    </IconButton>
+                    <React.Fragment>
+                        <Tooltip title="Import/Export Map">
+                            <IconButton color="inherit" onClick={handleOpen}>
+                                <ImportExport/>
+                            </IconButton>
+                        </Tooltip>
+                        <Tooltip title="Change the Game resolution">
+                            <IconButton color="inherit" edge="end" onClick={handleMenuOpen}>
+                                <AspectRatio/>
+                            </IconButton>
+                        </Tooltip>
+                        <Menu id="simple-menu" anchorEl={state.anchorMenu} keepMounted open={Boolean(state.anchorMenu)} onClose={handleMenuClose}>
+                            <MenuItem onClick={handleMenuClose(1)}>320x240</MenuItem>
+                            <MenuItem onClick={handleMenuClose(2)}>640x480</MenuItem>
+                            <MenuItem onClick={handleMenuClose(3)}>800x600</MenuItem>
+                        </Menu>
+                    </React.Fragment>
                 }
             </AppBar>
             <div className={classes.content}>
@@ -137,7 +158,7 @@ export default function Game(props) {
                 </div>
                 <canvas id="canvas" className={classes.canvas}/>
             </div>
-            <MapModal open={open} onClose={handleOpen}/>
+            <MapModal open={state.open} onClose={handleOpen}/>
         </React.Fragment>
     );
 };

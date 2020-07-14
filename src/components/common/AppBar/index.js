@@ -1,6 +1,6 @@
 import React from 'react';
 import {Brightness4, Brightness7, GitHub, PlayArrow} from "@material-ui/icons";
-import {AppBar as MaterialAppBar, Toolbar, Typography, Tooltip, IconButton, Button} from '@material-ui/core/';
+import {AppBar as MaterialAppBar, Toolbar, Typography, Tooltip, IconButton} from '@material-ui/core/';
 
 import {Context} from "../../../context";
 

@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {Route, Switch, BrowserRouter} from 'react-router-dom';
+import {Route, Switch, HashRouter} from 'react-router-dom';
 
 import blue from "@material-ui/core/colors/blue";
 import {createMuiTheme, MuiThemeProvider} from '@material-ui/core/styles';
@@ -183,12 +183,12 @@ export default function App() {
     return (
         <Context.Provider value={getContext()}>
             <MuiThemeProvider theme={theme ? lightTheme : darkTheme}>
-                <BrowserRouter>
+                <HashRouter>
                     <Switch>
-                        <Route exact path={'/Wolf3D-react-editor/'} render={(props) => <Main history={props.history}/>}/>
-                        <Route exact path={'/Wolf3D-react-editor/game'} render={(props) => <Game history={props.history}/>}/>
+                        <Route exact path={'/'} render={(props) => <Main history={props.history}/>}/>
+                        <Route exact path={'/game'} render={(props) => <Game history={props.history}/>}/>
                     </Switch>
-                </BrowserRouter>
+                </HashRouter>
             </MuiThemeProvider>
         </Context.Provider>
     )

@@ -85,7 +85,7 @@ export default function Main(props) {
     return (
         <div className={classes.root}>
             <CssBaseline/>
-            <AppBar name="Launch Game " onclick={() => {props.history.push('/Wolf3D-react-editor/game')}} className={clsx(classes.appBar, {[classes.appBarShift]: open})} github="https://github.com/Nhyarlathotep/Wolf3D-react-editor">
+            <AppBar name="Launch Game " onclick={() => {props.history.push('/game')}} className={clsx(classes.appBar, {[classes.appBarShift]: open})} github="https://github.com/Nhyarlathotep/Wolf3D-react-editor">
                 {
                     <IconButton color="inherit" aria-label="open drawer" edge="end" onClick={handleOpen} className={clsx(open && classes.hide)}>
                         <Menu/>

@@ -124,7 +124,7 @@ export default function Game(props) {
     return (
         <React.Fragment>
             <CssBaseline/>
-            <AppBar name="Launch Editor" onclick={() => {props.history.push('/Wolf3D-react-editor/')}} github="https://github.com/Nhyarlathotep/Wolf3d-wasm">
+            <AppBar name="Launch Editor" onclick={() => {props.history.push('/')}} github="https://github.com/Nhyarlathotep/Wolf3d-wasm">
                 {
                     <IconButton color="inherit" edge="end" onClick={handleOpen}>
                         <ImportExport/>

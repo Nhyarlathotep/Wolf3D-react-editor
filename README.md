@@ -103,7 +103,7 @@ npm start
 "wolf3D-wasm": "github:Nhyarlathotep/Wolf3D-wasm#build"
 ```
 
-Then run `npm link` in your game build directory and the run `npm link wolf3D-wasm ` in the root of the application.
+Then run `npm link` in your game build directory and run `npm link wolf3D-wasm ` in the root of the application.
 
 [image-1]:	doc/anim.gif
 [image-2]:	doc/editor.gif
